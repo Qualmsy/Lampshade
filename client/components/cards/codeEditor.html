@@ -1,0 +1,10 @@
+ <template name="CodeMirrorEditor">
+    <div class="hidden">{{helperToUpdateCodeMirror}}</div>
+    {{#if editorBefore}}
+    	<span class="rightalignchainfrom {{#if activatedLinkedHighlight}}activatedlinkedhighlight{{/if}}"><i class="fa fa-level-down"></i> from {{editorBefore}}</span>
+    {{/if}}
+    <textarea class="codeEditor"></textarea>
+    {{#if editorAfter}}
+    	<span class="rightalignchainto {{#if activatedLinkedHighlight}}activatedlinkedhighlight{{/if}}"><i class="fa fa-level-down"></i> to {{editorAfter}}</span>
+    {{/if}}
+</template>

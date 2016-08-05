@@ -1,0 +1,33 @@
+.rightalignchainfrom  {
+	float: right;
+	opacity: 0.5;
+	font-size: 0.9em;
+	line-height: 0.8em;
+	margin: 0;
+	padding: 0;
+}
+.rightalignchainto {
+	float: right;
+	opacity: 0.5;
+	font-size: 0.9em;
+	line-height: 0.8em;
+	margin: 0;
+	padding: 0;
+}
+.rightalignchainfrom:hover {
+	opacity: 1;
+	color: #FBB;
+	text-shadow: 3px 3px 5px #999;
+	cursor:default;
+}
+.rightalignchainto:hover {
+	opacity: 1;
+	color: #FBB;
+	text-shadow: 3px 3px 5px #999;
+	cursor:default;
+}
+.activatedlinkedhighlight {
+	opacity: 1;
+	color: #FBB;
+	text-shadow: 3px 3px 5px #999;
+}
